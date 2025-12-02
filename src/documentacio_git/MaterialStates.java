@@ -8,7 +8,7 @@ public enum MaterialStates {
     /**
      * El material està a l'inventari i es pot prestar immediatament.
      */
-	DISPONIBLE,
+    DISPONIBLE,
     
     /**
      * El material està actualment en possessió d'un usuari.
