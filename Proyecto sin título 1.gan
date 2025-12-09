@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="RA1Practica2Ex1" company="PuigSoft S.L." webLink="" view-date="2025-12-29" view-index="1" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="es_ES">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="0ff7b668bc4548abbc38a9855fae90fd" name="A" meeting="false" start="2026-01-08" duration="4" complete="0" expand="true"/>
+        <task id="1" uid="3b8c11c154df44f099d6ebb8c21d6332" name="B" meeting="false" start="2026-01-13" duration="3" complete="0" expand="true"/>
+        <task id="2" uid="31203250493a45bdb27fccbeca05746f" name="C" meeting="false" start="2026-01-08" duration="3" complete="0" expand="true"/>
+        <task id="3" uid="755651aacbf24a26b475af069164560e" name="D" meeting="false" start="2026-01-11" duration="14" complete="0" expand="true"/>
+        <task id="4" uid="fa38a385d79445f6a5039bf6ffbf6c95" name="E" meeting="false" start="2026-01-13" duration="3" complete="0" expand="true"/>
+        <task id="5" uid="f50418e71e614d33afcf8f05fc3f8c1d" name="F" meeting="false" start="2026-01-08" duration="4" complete="0" expand="true"/>
+        <task id="11" uid="80ccd5fd29c14f4fb3e5ef1443ce3202" name="Final proyecto" meeting="true" start="2026-02-04" duration="0" complete="0" expand="true"/>
+        <task id="6" uid="756278d4dcc6476e8def2500ef63d906" name="G" meeting="false" start="2026-01-12" duration="1" complete="0" expand="true"/>
+        <task id="7" uid="7b32d10ae1ff4fe3b55484945a5dca71" name="H" meeting="false" start="2026-01-23" duration="7" complete="0" expand="true"/>
+        <task id="8" uid="b806fb4cabc34a6f9440b65a0a93f6ff" name="I" meeting="false" start="2026-01-30" duration="1" complete="0" expand="true"/>
+        <task id="9" uid="cf13da37b70d434d9347704bd2847136" name="J" meeting="false" start="2026-01-31" duration="4" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Recurso 1" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Recurso 2" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Recurso 3" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
