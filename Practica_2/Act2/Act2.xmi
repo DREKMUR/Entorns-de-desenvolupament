@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_MoYoMAaWEfGFFKUjf5lWlg" name="Act2">
+  <eAnnotations xmi:id="_MocSkAaWEfGFFKUjf5lWlg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_MocSkQaWEfGFFKUjf5lWlg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MocSkgaWEfGFFKUjf5lWlg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocSkwaWEfGFFKUjf5lWlg" name="Data">
+    <ownedAttribute xmi:id="_MocSlAaWEfGFFKUjf5lWlg" name="dia" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSlQaWEfGFFKUjf5lWlg" name="mes" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSlgaWEfGFFKUjf5lWlg" name="any" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocSlwaWEfGFFKUjf5lWlg" name="Biblioteca">
+    <ownedAttribute xmi:id="_MocSmAaWEfGFFKUjf5lWlg" visibility="public" type="_MocSqAaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocSogaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSmQaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSmgaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSmwaWEfGFFKUjf5lWlg" visibility="public" type="_MocSxgaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocSpQaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSnAaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSnQaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSngaWEfGFFKUjf5lWlg" name="catalegLlibres" visibility="public" type="_MocSqAaWEfGFFKUjf5lWlg" isUnique="false">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSnwaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSoAaWEfGFFKUjf5lWlg" name="registreLlibres" visibility="public" type="_MocSxgaWEfGFFKUjf5lWlg" isUnique="false">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSoQaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocSogaWEfGFFKUjf5lWlg" memberEnd="_MocSmAaWEfGFFKUjf5lWlg _MocSowaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocSowaWEfGFFKUjf5lWlg" visibility="public" type="_MocSlwaWEfGFFKUjf5lWlg" isUnique="false" association="_MocSogaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSpAaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocSpQaWEfGFFKUjf5lWlg" memberEnd="_MocSmwaWEfGFFKUjf5lWlg _MocSpgaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocSpgaWEfGFFKUjf5lWlg" visibility="public" type="_MocSlwaWEfGFFKUjf5lWlg" isUnique="false" association="_MocSpQaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSpwaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocSqAaWEfGFFKUjf5lWlg" name="Llibre">
+    <ownedAttribute xmi:id="_MocSqQaWEfGFFKUjf5lWlg" visibility="public" type="_MocS6AaWEfGFFKUjf5lWlg" isUnique="false" aggregation="composite" association="_MocStQaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSqgaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSqwaWEfGFFKUjf5lWlg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocSrAaWEfGFFKUjf5lWlg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSrQaWEfGFFKUjf5lWlg" visibility="public" type="_MocS4waWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocStwaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSrgaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSrwaWEfGFFKUjf5lWlg" visibility="public" type="_MocSvgaWEfGFFKUjf5lWlg" isUnique="false" association="_MocSugaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSsAaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSsQaWEfGFFKUjf5lWlg" name="títol" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSsgaWEfGFFKUjf5lWlg" name="tipus" visibility="public" type="_MocS4waWEfGFFKUjf5lWlg" isUnique="false"/>
+    <ownedAttribute xmi:id="_MocSswaWEfGFFKUjf5lWlg" name="editorial" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocStAaWEfGFFKUjf5lWlg" name="anyPublicacio" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocStQaWEfGFFKUjf5lWlg" memberEnd="_MocSqQaWEfGFFKUjf5lWlg _MocStgaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocStgaWEfGFFKUjf5lWlg" visibility="public" type="_MocSqAaWEfGFFKUjf5lWlg" isUnique="false" association="_MocStQaWEfGFFKUjf5lWlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocStwaWEfGFFKUjf5lWlg" memberEnd="_MocSrQaWEfGFFKUjf5lWlg _MocSuAaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocSuAaWEfGFFKUjf5lWlg" visibility="public" type="_MocSqAaWEfGFFKUjf5lWlg" isUnique="false" association="_MocStwaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSuQaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocSugaWEfGFFKUjf5lWlg" memberEnd="_MocSrwaWEfGFFKUjf5lWlg _MocSuwaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocSuwaWEfGFFKUjf5lWlg" visibility="public" type="_MocSqAaWEfGFFKUjf5lWlg" isUnique="false" association="_MocSugaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSvAaWEfGFFKUjf5lWlg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocSvQaWEfGFFKUjf5lWlg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocSvgaWEfGFFKUjf5lWlg" name="Autor">
+    <ownedAttribute xmi:id="_MocSvwaWEfGFFKUjf5lWlg" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocSwwaWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocSwAaWEfGFFKUjf5lWlg" name="nom" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSwQaWEfGFFKUjf5lWlg" name="nacionalitat" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSwgaWEfGFFKUjf5lWlg" name="dataNaixement" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocSwwaWEfGFFKUjf5lWlg" memberEnd="_MocSvwaWEfGFFKUjf5lWlg _MocSxAaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocSxAaWEfGFFKUjf5lWlg" visibility="public" type="_MocSvgaWEfGFFKUjf5lWlg" isUnique="false" association="_MocSwwaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSxQaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocSxgaWEfGFFKUjf5lWlg" name="Lector">
+    <ownedAttribute xmi:id="_MocSxwaWEfGFFKUjf5lWlg" visibility="public" type="_MocS2QaWEfGFFKUjf5lWlg" isUnique="false" aggregation="composite" association="_MocS0QaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSyAaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSyQaWEfGFFKUjf5lWlg" visibility="public" type="_MocS8AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS0waWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocSygaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocSywaWEfGFFKUjf5lWlg" value="3"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocSzAaWEfGFFKUjf5lWlg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSzQaWEfGFFKUjf5lWlg" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocS1QaWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocSzgaWEfGFFKUjf5lWlg" name="nom" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocSzwaWEfGFFKUjf5lWlg" name="dadesIdentificacio" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocS0AaWEfGFFKUjf5lWlg" name="fechaFiSancio" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS0QaWEfGFFKUjf5lWlg" memberEnd="_MocSxwaWEfGFFKUjf5lWlg _MocS0gaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS0gaWEfGFFKUjf5lWlg" visibility="public" type="_MocSxgaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS0QaWEfGFFKUjf5lWlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS0waWEfGFFKUjf5lWlg" memberEnd="_MocSyQaWEfGFFKUjf5lWlg _MocS1AaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS1AaWEfGFFKUjf5lWlg" visibility="public" type="_MocSxgaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS0waWEfGFFKUjf5lWlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS1QaWEfGFFKUjf5lWlg" memberEnd="_MocSzQaWEfGFFKUjf5lWlg _MocS1gaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS1gaWEfGFFKUjf5lWlg" visibility="public" type="_MocSxgaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS1QaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocS1waWEfGFFKUjf5lWlg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocS2AaWEfGFFKUjf5lWlg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocS2QaWEfGFFKUjf5lWlg" name="Carnet">
+    <ownedAttribute xmi:id="_MocS2gaWEfGFFKUjf5lWlg" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocS3waWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocS2waWEfGFFKUjf5lWlg" name="idCarnet" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocS3AaWEfGFFKUjf5lWlg" name="dataEmissio" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false"/>
+    <ownedAttribute xmi:id="_MocS3QaWEfGFFKUjf5lWlg" name="static ultimId" visibility="public">
+      <ownedComment xmi:id="_MocS3gaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS3waWEfGFFKUjf5lWlg" memberEnd="_MocS2gaWEfGFFKUjf5lWlg _MocS4AaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS4AaWEfGFFKUjf5lWlg" visibility="public" type="_MocS2QaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS3waWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocS4QaWEfGFFKUjf5lWlg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocS4gaWEfGFFKUjf5lWlg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_MocS4waWEfGFFKUjf5lWlg" name="Tipus">
+    <ownedLiteral xmi:id="_MocS5AaWEfGFFKUjf5lWlg" name="novel·la"/>
+    <ownedLiteral xmi:id="_MocS5QaWEfGFFKUjf5lWlg" name="teatre"/>
+    <ownedLiteral xmi:id="_MocS5gaWEfGFFKUjf5lWlg" name="poesia"/>
+    <ownedLiteral xmi:id="_MocS5waWEfGFFKUjf5lWlg" name="assaig"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocS6AaWEfGFFKUjf5lWlg" name="Copia">
+    <ownedAttribute xmi:id="_MocS6QaWEfGFFKUjf5lWlg" visibility="public" type="_MocTBgaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocS7AaWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocS6gaWEfGFFKUjf5lWlg" name="idCopia" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocS6waWEfGFFKUjf5lWlg" name="estat" visibility="public" type="_MocTBgaWEfGFFKUjf5lWlg" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS7AaWEfGFFKUjf5lWlg" memberEnd="_MocS6QaWEfGFFKUjf5lWlg _MocS7QaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS7QaWEfGFFKUjf5lWlg" visibility="public" type="_MocS6AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS7AaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocS7gaWEfGFFKUjf5lWlg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocS7waWEfGFFKUjf5lWlg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MocS8AaWEfGFFKUjf5lWlg" name="Prestec">
+    <ownedAttribute xmi:id="_MocS8QaWEfGFFKUjf5lWlg" visibility="public" type="_MocS6AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS-QaWEfGFFKUjf5lWlg">
+      <ownedComment xmi:id="_MocS8gaWEfGFFKUjf5lWlg">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MocS8waWEfGFFKUjf5lWlg" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocS_QaWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocS9AaWEfGFFKUjf5lWlg" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocTAAaWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocS9QaWEfGFFKUjf5lWlg" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false" aggregation="shared" association="_MocTAwaWEfGFFKUjf5lWlg"/>
+    <ownedAttribute xmi:id="_MocS9gaWEfGFFKUjf5lWlg" name="dataInici" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false"/>
+    <ownedAttribute xmi:id="_MocS9waWEfGFFKUjf5lWlg" name="dataLimit" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false"/>
+    <ownedAttribute xmi:id="_MocS-AaWEfGFFKUjf5lWlg" name="dataRetorn" visibility="public" type="_MocSkwaWEfGFFKUjf5lWlg" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS-QaWEfGFFKUjf5lWlg" memberEnd="_MocS8QaWEfGFFKUjf5lWlg _MocS-gaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS-gaWEfGFFKUjf5lWlg" visibility="public" type="_MocS8AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS-QaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocS-waWEfGFFKUjf5lWlg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MocS_AaWEfGFFKUjf5lWlg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocS_QaWEfGFFKUjf5lWlg" memberEnd="_MocS8waWEfGFFKUjf5lWlg _MocS_gaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocS_gaWEfGFFKUjf5lWlg" visibility="public" type="_MocS8AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocS_QaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocS_waWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocTAAaWEfGFFKUjf5lWlg" memberEnd="_MocS9AaWEfGFFKUjf5lWlg _MocTAQaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocTAQaWEfGFFKUjf5lWlg" visibility="public" type="_MocS8AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocTAAaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocTAgaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MocTAwaWEfGFFKUjf5lWlg" memberEnd="_MocS9QaWEfGFFKUjf5lWlg _MocTBAaWEfGFFKUjf5lWlg">
+    <ownedEnd xmi:id="_MocTBAaWEfGFFKUjf5lWlg" visibility="public" type="_MocS8AaWEfGFFKUjf5lWlg" isUnique="false" association="_MocTAwaWEfGFFKUjf5lWlg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MocTBQaWEfGFFKUjf5lWlg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_MocTBgaWEfGFFKUjf5lWlg" name="Estat">
+    <ownedLiteral xmi:id="_MocTBwaWEfGFFKUjf5lWlg" name="disponible"/>
+    <ownedLiteral xmi:id="_MocTCAaWEfGFFKUjf5lWlg" name="en_reparacio"/>
+    <ownedLiteral xmi:id="_MocTCQaWEfGFFKUjf5lWlg" name="prestat"/>
+    <ownedLiteral xmi:id="_MocTCgaWEfGFFKUjf5lWlg" name="amb_retard"/>
+  </packagedElement>
+</uml:Model>
